@@ -15,7 +15,7 @@ let package = Package(
         .library(name: "BigInt", targets: ["BigInt"])
     ],
     targets: [
-        .target(name: "BigInt", path: "Sources"),
+        .target(name: "BigInt", path: "Sources/BigInt"),
         .testTarget(name: "BigIntTests", dependencies: ["BigInt"], path: "Tests")
     ]
 )
